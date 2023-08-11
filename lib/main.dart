@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'pages/team_folder.dart';
 void main() {
   runApp(const CloudFileManagerUI());
 }
@@ -13,7 +13,7 @@ class CloudFileManagerUI extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Cloud files',
-      home: const TeamFloderPage(),
+      home: TeamFolderPage(),
     );
   }
 }
